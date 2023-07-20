@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+
+.pos{
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+}
+
+
+.post {
+    margin: auto;
+    margin-top: 80px;
+    background-color: white;
+    height: 495px;
+    width: 280px;
+    border: 1px solid wheat;
+    border-radius: 1px;
+}
+
+#pic {
+    width: 280px;
+
+}
+
+#text {
+    font-size: 10px; 
+    margin: 8px;
+    margin-bottom: 8px;
+    padding: 3px;
+    padding-bottom: 3px;
+}
+
+section {
+   display: flex;
+   justify-content: space-between;
+   margin: 8px;
+    padding: 3px;
+}
+
+
